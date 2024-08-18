@@ -1,0 +1,18 @@
+# Create a vector of numbers with variable length 
+numbers <- c(2, 7, 10, 15, 8, 3, 6) 
+result<-vector("character",length(numbers)) 
+# Use an if-else statement to categorize each number as Even or Odd 
+for (i in 1:length(numbers)) 
+{ 
+if (numbers[i] %% 2 == 0) 
+{ 
+result[i] <- "Even" 
+} 
+else 
+{ 
+result[i] <- "Odd" 
+} 
+} 
+# Print the original vector and the categorized results 
+cat("Original vector: ", numbers, "\n") 
+cat("Categorized results: ", result, "\n") 
