@@ -1,3 +1,4 @@
+#MATRIX OPERATIONS
 # Creating a matrix 
 matrix1 <- matrix(1:9, nrow = 3, ncol = 3) 
 print("Matrix 1:") 
@@ -23,3 +24,57 @@ print(matrix_prod)
 matrix_transpose <- t(matrix1) 
 print("Transpose of Matrix 1:") 
 print(matrix_transpose) 
+#ARRAY OPERATIONS
+# Creating arrays 
+array1 <- array(1:12, dim = c(2, 3, 2)) 
+print("Array 1:") 
+print(array1) 
+
+array2 <- array(13:24, dim = c(2, 3, 2)) 
+print("Array 2:") 
+print(array2) 
+
+# Addition of arrays 
+array_add <- array1 + array2 
+print("Addition of Array 1 and 
+Array2:")
+print(array_add) 
+
+# Subtraction of arrays 
+array_subtract <- array2 - array1 
+print("Subtraction of Array 2 and Array 
+1:")
+print(array_subtract) 
+
+# Element-wise multiplication of arrays 
+array_multiply <- array1 * array2 
+print("Element-wise multiplication of Array 1 and Array 2:") 
+print(array_multiply) 
+
+# Summation of elements in array 
+sum_array1 <- sum(array1) 
+print("Sum of elements in Array 1:") 
+print(sum_array1) 
+
+# Sorting elements in the array 
+sorted_array1 <- sort(array1) 
+print("Sorted elements of Array 1:") 
+print(sorted_array1)
+
+#Factor Operations : 
+  # Creating a factor 
+  factor1 <- factor(c("High", "Medium", "Low", "Medium", "High")) 
+print("Factor 1:") 
+print(factor1) 
+
+# Accessing levels of a factor 
+print("Levels of Factor 1:") 
+print(levels(factor1)) 
+
+# Accessing elements in a factor 
+print("First element of Factor 1:") 
+print(factor1[1]) 
+
+# Counting occurrences of each level 
+print("Count of each level in Factor 1:") 
+print(table(factor1))
