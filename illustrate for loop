@@ -1,0 +1,18 @@
+ 
+# Define a vector of numbers 
+numbers <- c(2, 5, 10, 15, 20, 25, 30) 
+# Define the condition for which we want to stop and print an error message 
+stop_condition <- 15 
+# Use a for loop to process the vector and stop on the condition 
+for (num in numbers) 
+{ 
+if (num == stop_condition) 
+{ 
+cat("Error: Condition met. Stopping loop.\n") 
+break 
+} 
+else 
+{ 
+cat("Processing number: ", num, "\n") 
+} 
+}
