@@ -1,0 +1,25 @@
+# Creating a matrix 
+matrix1 <- matrix(1:9, nrow = 3, ncol = 3) 
+print("Matrix 1:") 
+print(matrix1) 
+
+# Matrix addition 
+matrix2 <- matrix(10:18, nrow = 3, ncol = 3) 
+matrix_sum <- matrix1 + matrix2 
+print("Sum of Matrix 1 and Matrix 2:") 
+print(matrix_sum) 
+
+# Matrix subtraction 
+matrix_diff <- matrix2 - matrix1
+print("Difference of Matrix 2 and Matrix 1:") 
+print(matrix_diff) 
+
+# Matrix multiplication 
+matrix_prod <- matrix1 %*% matrix2 
+print("Matrix multiplication of Matrix 1 and Matrix 2:")  
+print(matrix_prod) 
+
+# Transpose of a matrix  
+matrix_transpose <- t(matrix1) 
+print("Transpose of Matrix 1:") 
+print(matrix_transpose) 
