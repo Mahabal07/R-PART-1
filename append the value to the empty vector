@@ -1,0 +1,9 @@
+vector = c() 
+ 
+values = c('a','b','c','d','e','f','g') 
+ 
+for (i in 1:length(values)) 
+ 
+vector[i] <- values[i] 
+ 
+vector
