@@ -1,0 +1,13 @@
+ 
+# Create a vector of data 
+data <- c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) 
+# Calculate the mean 
+mean <- mean(data) 
+# Calculate the median 
+median <- median(data) 
+# Calculate the mode 
+mode <- mode(data) 
+# Print the results 
+cat("The mean is", mean, "\n") 
+cat("The median is", median, "\n") 
+cat("The mode is", mode, "\n") 
