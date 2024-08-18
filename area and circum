@@ -1,0 +1,17 @@
+ 
+# Define the value of Pi 
+pi <- 3.141592653589793 
+ 
+# Prompt the user to enter the radius of the circle 
+cat("Enter the radius of the circle: ") 
+radius <- as.numeric(readLines(n=1)) 
+ 
+# Calculate the area of the circle 
+area <- pi * radius^2 
+# Calculate the circumference of the circle 
+Circumference <- 2*pi*radius 
+ 
+ 
+# Display the computed area to the user 
+cat("The area of the circle with radius", radius, "is:", area, "\n") 
+cat("The Circumference of the circle with radius", radius, "is:", Circumference, "\n")
