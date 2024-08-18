@@ -1,0 +1,31 @@
+# Creating vectors in R 
+vector1 <- c(1, 2, 3, 4, 5) 
+vector2 <- c(6, 7, 8, 9, 10) 
+ 
+# Vector addition 
+vector_sum <- vector1 + vector2 
+print("Sum of Vector 1 and Vector 2:") 
+print(vector_sum) 
+ 
+# Vector subtraction 
+vector_diff <- vector2 - vector1 
+print("Difference of Vector 2 and Vector 1:") 
+print(vector_diff) 
+ 
+# Element-wise multiplication 
+vector_prod <- vector1 * vector2 
+print("Element-wise multiplication of Vector 1 and Vector 2:") 
+print(vector_prod) 
+ 
+# Mathematical functions 
+print("Sum of elements in Vector 1:") 
+print(sum(vector1)) 
+ 
+print("Mean of elements in Vector 1:") 
+print(mean(vector1)) 
+ 
+print("Maximum value in Vector 1:") 
+print(max(vector1)) 
+ 
+print("Minimum value in Vector 1:") 
+print(min(vector1)) 
